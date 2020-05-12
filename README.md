@@ -1,4 +1,4 @@
 # Lars Web Typografie
 Code voor het vak web-typografie
 
-uitleg hier
+Link naar eindresultaat: https://larscappelle.github.io/LarsWebTypografie/
