@@ -39,6 +39,7 @@ body {
     font-family: "brenner mono";
     right: 28vw;
     font-size: 22px;
+    text-shadow: white 0px 0px 10px;
 }
 
 /* coole man stem */
@@ -52,8 +53,8 @@ body {
 .voice3 {
     font-family: "brenner sans condensed";
     color: orangered;
-    right: 20vw;
-    bottom: 5vh;
+    left: 15vw;
+    bottom: 40vh;
     font-size: 25px;
 }
 
@@ -70,23 +71,23 @@ body {
 }
 
 .cellsx3 {
-    font-size: 30px;
-}
-
-.cellsx4 {
     font-size: 35px;
 }
 
-.cellsx5 {
-    font-size: 40px;
-}
-
-.cellsx6 {
+.cellsx4 {
     font-size: 45px;
 }
 
+.cellsx5 {
+    font-size: 55px;
+}
+
+.cellsx6 {
+    font-size: 65px;
+}
+ 
 .cellsx7 {
-    font-size: 50px;
+    font-size: 75px;
 }
 
 .uppercase {
@@ -164,13 +165,46 @@ You probably want to change the styling.
 }
 */
 
-.officernaam {
-    color: red;
+.eigentekst {
+    font-family: "brenner sans condensed";
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    width: 30%;
+    right: 35%;
+    bottom: 15%;
+    opacity: 0;
 }
-
 
 .sound5 {
     animation: sound5keyframes 1s linear;
+}
+
+.sound5 .alarmsound,
+.sound5 .alarmsound2,
+.sound5 .alarmP {
+    animation-duration: 2s;
+    animation-name: Alarmpje;
+}
+
+@keyframes Alarmpje {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 0;
+    }
+
 }
 
 .sound6 {
@@ -179,115 +213,91 @@ You probably want to change the styling.
 }
 
 @-webkit-keyframes sound5keyframes {
-    0% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
-    }
-    10% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(10, 0, 8));
-    }
-    20% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(20, 0, 8));
-    }
-    30% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(30, 0, 8));
-    }
-    40% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(40, 0, 8));
-    }
-    50% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(50, 0, 8));
-    }
-    60% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(60, 0, 8));
-    }
-    70% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(70, 0, 8));
-    }
-    80% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(50, 0, 8));
-    }
-    90% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(30, 0, 8));
-    }
-    100% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(10, 0, 8));
-    }
+    0% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));}
+    10% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(10, 0, 8));}
+    20% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(20, 0, 8));}
+    30% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(30, 0, 8));}
+    40% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(40, 0, 8));}
+    50% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(50, 0, 8));}
+    60% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(60, 0, 8));}
+    70% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(70, 0, 8));}
+    80% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(50, 0, 8));}
+    90% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(30, 0, 8));}
+    100% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(10, 0, 8));}
 }
 
 @-webkit-keyframes sound6keyframes {
+    0% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));}
+    10% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(60, 0, 8));}
+    20% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(120, 0, 8));}
+    30% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(180, 0, 8));}
+    40% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));}
+    50% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));}
+    60% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));}
+    70% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));}
+    80% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));}
+    90% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(225, 0, 8));}
+    100% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));}
+}
+
+.sound7 {
+    animation: sound7keyframes 1s linear;
+}
+
+.sound7 .alarmsoundbinnen,
+.sound7 .alarmsoundbinnen2,
+.sound7 .alarmbinnenP {
+    animation-duration: 2s;
+    animation-name: Alarmpjebinnen;
+}
+
+@keyframes Alarmpjebinnen {
     0% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
+        opacity: 0;
     }
-    10% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(60, 0, 8));
-    }
-    20% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(120, 0, 8));
-    }
+
     30% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(180, 0, 8));
+        opacity: 1;
     }
-    40% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));
-    }
-    50% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));
-    }
-    60% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));
-    }
-    70% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));
-    }
-    80% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));
-    }
+
     90% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(225, 0, 8));
+        opacity: 1;
     }
+    
     100% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 0, 8));
+        opacity: 0;
     }
 }
 
+@-webkit-keyframes sound7keyframes {
+    0% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));}
+    10% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(10, 0, 8));}
+    20% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(20, 0, 8));}
+    30% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(30, 0, 8));}
+    40% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(40, 0, 8));}
+    50% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(50, 0, 8));}
+    60% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(60, 0, 8));}
+    70% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(70, 0, 8));}
+    80% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(50, 0, 8));}
+    90% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(30, 0, 8));}
+    100% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(10, 0, 8));}
+}
 .sound8 {
     animation: sound8keyframes 1s linear;
 }
 
 @-webkit-keyframes sound8keyframes {
-    0% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
-    }
-    10% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(20, 0, 8));
-    }
-    20% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(40, 0, 8));
-    }
-    30% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(60, 0, 8));
-    }
-    40% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(80, 0, 8));
-    }
-    50% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(100, 0, 8));
-    }
-    60% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(110, 0, 8));
-    }
-    70% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(120, 0, 8));
-    }
-    80% {
-    	background: radial-gradient(circle at center center, rgb(35,35,35),rgb(130, 0, 8));
-    }
-    90% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(150, 0, 8));
-    }
-    100% {
-        background: radial-gradient(circle at center center, rgb(35,35,35),rgb(150, 0, 8));
-    }
+    0% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));}
+    10% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(20, 0, 8));}
+    20% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(40, 0, 8));}
+    30% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(60, 0, 8));}
+    40% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(80, 0, 8));}
+    50% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(100, 0, 8));}
+    60% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(110, 0, 8));}
+    70% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(120, 0, 8));}
+    80% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(130, 0, 8));}
+    90% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(150, 0, 8));}
+    100% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(150, 0, 8));}
 }
 
 .sound9 {
@@ -299,21 +309,38 @@ background: radial-gradient(circle at center center, rgb(35,35,35),rgb(152, 178,
     animation: uplifter 7s;
 }
 
+.sound10 .tension,
+.sound10 .tension2,
+.sound10 .tensionP {
+    animation-duration: 3s;
+    animation-name: Alarmpje;
+}
+
 @keyframes uplifter {
 /*
     from {background: red}
   to {background: blue}
 */
     0% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(152, 178, 144))}
+    5% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(157, 174, 142))}
     10% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(162, 170, 140))}
+    15% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(167, 166, 148))}
     20% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(172, 162, 136))}
+    25% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(177, 158, 134))}
     30% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(182, 154, 132))}
+    35% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(187, 150, 130))}
     40% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(192, 146, 128))}
+    45% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(197, 142, 126))}
     50% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(202, 138, 124))}
+    55% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(207, 134, 122))}
     60% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(212, 130, 120))}
+    65% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(217, 126, 118))}
     70% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(222, 122, 116))}
+    75% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(227, 118, 113))}
     80% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(232, 114, 110))}
+    85% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(237, 110, 107))}
     90% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(242, 107, 105))}
+    95% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(247, 103, 102))}
    100% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(255, 100, 100))} 
 }
 
@@ -321,4 +348,18 @@ background: radial-gradient(circle at center center, rgb(35,35,35),rgb(152, 178,
     background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
 }
 
-.sound12
+.sound12 {
+    background: radial-gradient(circle at center center, rgb(35,35,35),rgb(152, 178, 144));
+}
+
+.sound13 {
+    background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
+}
+
+.sound14 {
+    background: radial-gradient(circle at center center, rgb(35,35,35),rgb(152, 178, 144));
+}
+
+.sound15 {
+    background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
+}
