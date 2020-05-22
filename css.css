@@ -61,7 +61,7 @@ body {
 .voice4 {
     font-family: "brenner sans";
     color: cadetblue;
-    right: 40vw;
+    right: 28vw;
     bottom: 10vh;
     font-size: 25px;
 }
@@ -177,12 +177,64 @@ You probably want to change the styling.
     opacity: 0;
 }
 
+.sound0 .intromusicP {
+    animation-duration: 2s;
+    animation-name: Alarmpje;
+}
+
+.sound2 {
+    background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
+    animation: sound2keyframes 1s linear;
+}
+
+.sound2 .buzzerP {
+    animation-duration: 1s;
+    animation-name: Alarmpje;
+}
+
+.sound3 {
+    background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
+    animation: sound3keyframes 1s linear;
+}
+
+.sound3 .sirenP {
+    animation-duration: 2s;
+    animation-name: Alarmpje;
+}
+
+/*
+.sound3 .sirensound2 {
+    animation-duration: 2s;
+    animation-name: sound3opacity;
+}
+*/
+
+@-webkit-keyframes sound2keyframes {
+    0% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));}
+    10% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(60, 0, 8));}
+    20% {background: radial-gradient(circle at center center, rgb(35,35,35),rgb(120, 0, 8));}
+}
+
+@-webkit-keyframes sound3keyframes {
+    0% {background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(15,16,17,1) 30%, rgba(0,0,0,1) 70%, rgba(100,0,0,1) 100%);}
+    25% {background: linear-gradient(90deg, rgba(0,52,122,1) 0%, rgba(15,16,17,1) 30%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 100%);}
+    50% {background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(15,16,17,1) 30%, rgba(0,0,0,1) 70%, rgba(100,0,0,1) 100%);}
+    75% {background: linear-gradient(90deg, rgba(0,52,122,1) 0%, rgba(15,16,17,1) 30%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 100%);}
+    100% {background: linear-gradient(-90deg, rgba(0,0,0,1) 0%, rgba(15,16,17,1) 30%, rgba(15,16,17,1) 70%, rgba(0,0,0,1) 100%);}
+}
+
+/*
+@-webkit-keyframes sound3opacity {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+*/
+
 .sound5 {
     animation: sound5keyframes 1s linear;
 }
 
-.sound5 .alarmsound,
-.sound5 .alarmsound2,
 .sound5 .alarmP {
     animation-duration: 2s;
     animation-name: Alarmpje;
@@ -204,7 +256,6 @@ You probably want to change the styling.
     100% {
         opacity: 0;
     }
-
 }
 
 .sound6 {
@@ -244,8 +295,6 @@ You probably want to change the styling.
     animation: sound7keyframes 1s linear;
 }
 
-.sound7 .alarmsoundbinnen,
-.sound7 .alarmsoundbinnen2,
 .sound7 .alarmbinnenP {
     animation-duration: 2s;
     animation-name: Alarmpjebinnen;
@@ -309,8 +358,6 @@ background: radial-gradient(circle at center center, rgb(35,35,35),rgb(152, 178,
     animation: uplifter 7s;
 }
 
-.sound10 .tension,
-.sound10 .tension2,
 .sound10 .tensionP {
     animation-duration: 3s;
     animation-name: Alarmpje;
@@ -348,18 +395,60 @@ background: radial-gradient(circle at center center, rgb(35,35,35),rgb(152, 178,
     background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
 }
 
+.sound11 .silenceP {
+    animation-duration: 1s;
+    animation-name: Alarmpje;
+}
+
 .sound12 {
     background: radial-gradient(circle at center center, rgb(35,35,35),rgb(152, 178, 144));
 }
 
-.sound13 {
-    background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
+.sound13 .musicP {
+    animation-duration: 1s;
+    animation-name: Alarmpje;
 }
 
 .sound14 {
-    background: radial-gradient(circle at center center, rgb(35,35,35),rgb(152, 178, 144));
+    background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
 }
 
 .sound15 {
+    background: radial-gradient(circle at center center, rgb(35,35,35),rgb(152, 178, 144));
+}
+
+.sound16 {
     background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
+}
+
+.sound17 {
+    background: radial-gradient(circle, rgba(83,177,153,1) 0%, rgba(0,81,94,1) 39%, rgba(0,0,0,1) 100%);
+}
+
+.sound17 iframe {
+    box-shadow: #53b09a 0px 0px 400px;
+    animation: gloed 1s alternate;
+    animation-iteration-count: 4;
+}
+ 
+@keyframes gloed {
+  from {
+    box-shadow: 0 0 80px -10px #53b09a;
+  }
+  to {
+    box-shadow: 0 0 100px 10px #53b09a;
+  }
+}
+
+.sound18 {
+    background: radial-gradient(circle at center center, rgb(35,35,35),rgb(0, 0, 8));
+}
+
+.sound18 iframe {
+    box-shadow: #000000 0px 0px 400px;
+}
+
+.sound19 .silenceP {
+    animation-duration: 1s;
+    animation-name: Alarmpje;
 }
