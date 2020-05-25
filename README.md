@@ -3,17 +3,17 @@ Code voor het vak web-typografie
 
 Link naar eindresultaat: https://larscappelle.github.io/LarsWebTypografie/
 
-# Opdracht debrief
+<h2>Opdracht debrief</h2>
 Voor het vak Web Typografie krijgen we een videofragment toegewezen met closed captions eronder. Het is de bedoeling dat we deze closed captions gaan stylen met CSS om zo een grotere beleving te creëren voor mensen die doof zijn.
 
-# Doelgroep
+<h2>Doelgroep</h2>
 De opdracht voor het vak Web Typografie is gericht op 1 persoon. De persoon waarvoor we de closed captions gaan stylen is Marie van Driessche. In de eerste week hebben we een interview met haar mogen houden en hieruit ben ik het volgende te weten gekomen:
 
-# User test 1
+<h2>User test 1</h2>
 Toelichting oplevering
 Ik heb ervoor gekozen om de stijl van de captions in dit stadium van het vak nog wat basic/veilig te houden, door voornamelijk te spelen met kleuren en positionering. De gedachte van mijn ondertiteling is dat het wat meer als een conversatie voelt, door de verschillende stemmen een andere positionering te geven; de hoofdpersoon zijn captions staan links, en die van de robot-stem rechts. Ook hoor je nog een keer een ‘fuck off’ en ‘we’re done’. Deze captions heb ik ook aan de rechterkant gepositioneerd, maar iets verder naar rechts dan die van de robot stem. Met deze positioneringen wil ik een realistisch effect creëren waarbij de kijker kan inbeelden waar de stem ongeveer vandaan komt in de ruimte. De captions van de stem waarmee de hoofdpersoon een conversatie mee heeft staan dichterbij dan die van de persoon die ‘we ’re done’ zegt omdat deze in de video ook verder weg klinkt.
 
-Vragen aan Marie
+<h2>Vragen aan Marie</h2>
 1. Zijn de captions goed te volgen tijdens het kijken van de video of leiden ze af?
 Nee. Het zou wel iets dichterbij kunnen, dat wel. Iets dichterbij. Wat ik me bijvoorbeeld kan voorstellen he als je een film kijkt ontspannen op de bank met een grote TV, dan is het misschien wel veel werk om heen en weer te kijken. Het hangt heel erg af van hoe mensen dat überhaupt doen. Maar als ik het beeld dichtbij heb zoals gewone mensen dan is het prima.
 
@@ -36,7 +36,7 @@ Inzichten:
 -	Naast kleur effecten moeten er ook letterlijke uitleggen bij komen zoals (alarm luidt).
 -	Conversatieposities links en rechts werken goed.
 
-# User test 2
+<h2>User test 2</h2>
 Toelichting oplevering
 In de tweede versie van mijn closed captions heb ik een aantal aanpassingen gedaan ten opzichte van de eerste versie. Ik heb de achtergronden die de video ondersteunen en sfeer versterken doorgetrokken tot over de hele video. Dit is ook iets waarvan ik wil weten of Marie er positief of negatief naar kijkt. Ook heb ik de captions tot aan het einde van de video gepositioneerd en waar nodig aangepast (denk aan uppercase, font-grootte en kleur). Op basis van de resultaten van de vorige user test ben ik ook begonnen met het toevoegen van omschrijvingen van omgevingsgeluid. Denk hierbij aan geluiden als het alarm. Muziek en een stilte. Tot slot heb ik de CSS van mijn closed captions wat versimpeld, maar dit is verder onbelangrijk voor Marie. Bij de tweede User Test wil ik vooral informatie/ feedback krijgen over de achtergronden en sfeeromschrijvingen, om erachter te komen of ze goed werken of niet.
 
@@ -47,3 +47,23 @@ De geluidsomschrijvingen zijn goed. Zorg wel dat je het echt bij geluidsomschrij
 Is de combinatie tussen de achtergronden en de omschrijving van de geluiden sterk genoeg of is het juist vaag?
 Ja, deze versterken elkaar. In sommige gevallen zijn de omschrijvingen overbodig zoals ik net al zei, maar wanneer het echt om een achtergrondgeluid en omschrijving gaat, werkt dit goed samen met een achtergrondeffect.
 
+
+<h2>Designkeuzes</h2>
+
+Ik heb er vanaf het begin al voor gekozen om de captions op 4 aspecten te stylen:
+Kleur, Positie, Grootte & Achtergrond. Hierdoor heb ik ook bewust gekozen om andere styling, zoals beweging/ trilling verplaatsing van tekst & visuele elementen (chrome) niet in mijn captions te verwerken. In mijn ogen leidt het enorm af en is het erg lastig om een tekst te lezen die beweegt, trilt, van kleur veranderd of op een andere manier transformeert. Marie moet haar aandacht al op zowel de video als de tekst vestigen, en als die tekst dan ook nog eens beweegt is dat extra lastig. De kracht van mijn closed captions liggen hem in het minimalistische, waarbij juist de achtergrond meer het werk doet; denk aan het veranderen van kleur en opbouwen van sfeer. Ik heb ervoor gekozen om de captions ruimtelijker te maken door van elk personage de captions een eigen stijl en positie te geven.
+
+<h3>Kleuren en positie</h3>
+Officer K: groene tekst, links van de video. Ik heb gekozen voor mintgroen omdat het de “good guy” en hoofdpersoon is, maar ik niet een te overdreven kleur groen wou gebruiken. 
+
+Robot stem: Witte tekst in een monospaced font omdat dit wordt geassocieerd met code, wat op zijn beurt weer wordt geassocieerd met techniek en robotica. Ik heb de kleur wit gekozen omdat ik rood te vijandig vond voor de rol van de robotstem. Wit is een neutralere kleur en daarom vond ik deze beter bij de robotstem passen. Ook heb ik nog een kleine glow op de tekst gezet om dat robotische/ technische effect te versterken.
+
+Persoon die zegt Fuck off: Deze tekst heb ik oranjerood gemaakt omdat het een duidelijk vijandige opmerking is. Ik heb de captions links boven de captions van officer K gezet omdat de persoon zich ongeveer daar bevindt in de ruimte.
+
+Persoon die zegt dat de test klaar is: Deze heb ik in het midden onder de captions van officer K en de robot stem gezet, omdat deze stem zich in mijn ogen ongeveer daar bevindt; op de achtergrond en tussen de twee andere in. Ik heb de tekst donkerblauw gemaakt; blauw omdat het een nogal rustige tekst is, en donker omdat het op de achtergrond wordt gezegd en dus niet erg aanwezig is.
+
+<h3>Grootte</h3>
+Tijdens de video worden de woorden “cells” en “interlinked” enorm veel genoemd. in mijn ogen elke keer anders. Daarom vond ik het een slecht idee om de woorden elke keer hetzelfde te weergeven. Juist dit gedeelte vind ik wat de video zo interessant maakt. Ik heb ervoor gekozen om d.m.v. font-sizes en uppercases, de intensiteit van de verschillende keren dat cells of interlinked wordt gezegd, te weergeven. Hoe harder en strikter de robot stem cells zegt, hoe groter de caption. 
+
+<h3>Achtergrond</h3>
+Ik heb ervoor gekozen om de achtergrond van de video meer het gevoelswerk en het visuele werk te laten doen. Ook hier wilde ik niet te erg overdrijven, omdat ik uit interviews en tests met Marie heb vernomen dat dat erg afleidend kan werken. De achtergrond is bij mijn closed captions zowel een verlengstuk van de video als vertaler van de audio naar beeld. Het is een verlengstuk van de video omdat elke keer wanneer Officer K van setting veranderd, de achtergrond van mijn site mee veranderd. De achtergrond is ook een vertaler van de audio naar beeld, omdat het (in combinatie met de beschrijving van omgevingsgeluiden captions) weergeeft hoe intens een bepaald achtergrondgeluid is. 
