@@ -9,7 +9,28 @@ Link naar eindresultaat: https://larscappelle.github.io/LarsWebTypografie/
 Voor het vak Web Typografie krijgen we een videofragment toegewezen met closed captions eronder. Het is de bedoeling dat we deze closed captions gaan stylen met CSS om zo een grotere beleving te creëren voor mensen die doof zijn.
 
 <h2>Doelgroep</h2>
-De opdracht voor het vak Web Typografie is gericht op 1 persoon. De persoon waarvoor we de closed captions gaan stylen is Marie van Driessche. In de eerste week hebben we een interview met haar mogen houden en hieruit ben ik het volgende te weten gekomen:
+De opdracht voor het vak Web Typografie is gericht op 1 persoon. De persoon waarvoor we de closed captions gaan stylen is Marie van Driessche. In de eerste week hebben we een interview met haar mogen houden en hieruit ben ik meer over haar te weten gekomen. Helaas heb ik niet mijn eigen vragen aan haar kunnen stellen omdat 1 iemand in mijn groepje alle tijd had opgeëist, maar ik heb in ieder geval kunnen leren van de vragen die zij had beantwoord tijdens de call. Ik ben de volgende dingen over Marie te weten gekomen:
+
+- Ze heeft een tattoo waar Ik hou van jou in gebarentaal op staat. Ook heeft ze een joker van rummikub, een geometrische tattoo en een tattoo van Amsterdam. 
+
+- Ze woont in Amsterdam
+
+- Ze houdt van (boeken) lezen. Voor dove mensen is geschreven Nederlands erg anders als gebarentaal. Daarom hebben veel dove mensen vaak moeite met lezen, maar omdat Marie tweetalig is opgevoed (gebarentaal en Nederlands) kan ze hier goed mee overweg. 
+
+- Marie prefereert ondertiteling boven een doventolk in beeld omdat deze iets heel anders kan brengen dan hoe het origineel bedoeld is. 
+
+- Marie leest snel en heeft geen moeite met beeld en ondertiteling tegelijk te bekijken.
+
+- Snelle beelden/ epileptisch gevoelige beelden zijn voor Marie geen probleem. 
+
+- Marie ziet kleuren en hun betekenissen net als hoe niet-dove mensen het zien. Dus rood is voor Marie ook een “boze gevaarlijke” kleur.
+
+- Marie moet tijdens een college echt 100% opletten/ focussen en de doventolk/ondertiteling in de gaten houden omdat ze niks hoort. Ze kan bijvoorbeeld niet even tussendoor rommelen want dan krijgt ze niks mee.
+
+- Out of the box denken en kitscherig vindt Marie leuk. Alles mag.
+
+- Tip van Marie: probeer wel echt de sfeer van de film over te brengen.
+
 
 <hr>
 
