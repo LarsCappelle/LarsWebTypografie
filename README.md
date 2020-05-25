@@ -3,11 +3,15 @@ Code voor het vak web-typografie
 
 Link naar eindresultaat: https://larscappelle.github.io/LarsWebTypografie/
 
+<hr>
+
 <h2>Opdracht debrief</h2>
 Voor het vak Web Typografie krijgen we een videofragment toegewezen met closed captions eronder. Het is de bedoeling dat we deze closed captions gaan stylen met CSS om zo een grotere beleving te creëren voor mensen die doof zijn.
 
 <h2>Doelgroep</h2>
 De opdracht voor het vak Web Typografie is gericht op 1 persoon. De persoon waarvoor we de closed captions gaan stylen is Marie van Driessche. In de eerste week hebben we een interview met haar mogen houden en hieruit ben ik het volgende te weten gekomen:
+
+<hr>
 
 <h2>User test 1</h2>
 Toelichting oplevering
@@ -47,6 +51,7 @@ De geluidsomschrijvingen zijn goed. Zorg wel dat je het echt bij geluidsomschrij
 Is de combinatie tussen de achtergronden en de omschrijving van de geluiden sterk genoeg of is het juist vaag?
 Ja, deze versterken elkaar. In sommige gevallen zijn de omschrijvingen overbodig zoals ik net al zei, maar wanneer het echt om een achtergrondgeluid en omschrijving gaat, werkt dit goed samen met een achtergrondeffect.
 
+<hr>
 
 <h2>Designkeuzes</h2>
 
