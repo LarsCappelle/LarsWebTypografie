@@ -98,3 +98,29 @@ Ik heb ervoor gekozen om de achtergrond van de video meer het gevoelswerk en het
 
 <h2>Exclusive Design</h2>
 In de eerste les van Web Typografie ben ik te weten gekomen wie Marie is, en hoe belangrijk het is dat mensen met een beperking ook optimaal gebruik kunnen maken van het web. Dankzij het interview heb ik de situatie goed kunnen bestuderen, en weet ik welke conventies (regels) ik moet negeren in mijn closed captions site. Ik ben dan ook met mijn brein op 0 begonnen aan deze opdracht en heb alle webdesign regeltjes die ik in de afgelopen 3 jaar heb geleerd opzijgezet. Het enige waar het om draait is dat Marie een zo fijn mogelijke ervaring krijgt tijdens het kijken naar mijn closed captions video. Daarom heb ik samen met haar feedback op mijn closed captions geprobeerd om mijn closed captions zo duidelijk mogelijk te maken. Het was erg fijn dat ik tijdens het maken van de closed caption videos niet alleen ontwierp voor wat mij het beste lijkt, maar ook wat Marie het beste vindt. Zou heb ik niet alleen vóor Marie ontworpen, maar ook indirect mét Marie. Ik heb voortdurend de video bekeken zonder geluid om te testen of mijn captions en achtergrond ideeën enigszins logisch waren en niet te vaag of onduidelijk. Zo heb ik af en toe elementen toegevoegd waarvan ik denk dat ze nonsense zijn, en ze vervolgens weer verwijderd of juist gehouden.
+
+
+<h1>Herkansing</h1>
+<h2>Feedback</h2>
+Vasilis heeft samen met Menno besloten dat ik mijn closed captions moet aanvullen. De redenen hiervoor waren:
+
+-	Er kwamen naar hun mening door te veel onduidelijkheden, vragen op in de video die eigenlijk niet zouden moeten opkomen. Pas na mijn uitleg was het duidelijk, en dat zou niet moeten.
+-	Er wordt te weinig van de muziek beschreven, de achtergrond (body) gaat te veel over het beeld i.p.v. de audio en dat is niet de opdracht.
+-	De positionering van de teksten werkt niet helemaal goed, vooral omdat sommige zinnen erg lang waren wat de layout verknalt. 
+-	Ik had volgens Menno en Vasilis geen Readme. Dit puntje snapte ik niet helemaal aangezien ik een uitgebreide documentatie had gemaakt en in de readme.md op mijn GitHub had gezet. Het kan ook geen foutje vanuit mijn kant zijn geweest aangezien klasgenoten wel de readme konden zien in mijn GitHub.
+
+Ik begrijp de feedback die ik heb gekregen en ben dan ook van mening dat alles terecht is (los van dat readme puntje). Daarom heb ik het volgende aangepast in mijn closed captions.
+
+<h3>aanpassingen</h3>
+-	Ik ben afgestapt van het idee dat de achtergrond de video versterkt door steeds tussen ruimtes en achtergrondkleuren te switchen. De achtergrond moet juist de audio versterken en dit heb ik nu gedaan.
+-	De achtergrond veranderd nu ook op basis van de muziek en langere geluiden die in de video zitten, en niet alleen maar op de korte geluiden.
+-	Zinnen die te lang waren heb ik korter gemaakt om zo het effect van de positionering van de tekst overal even goed over te brengen. 
+-	Ik heb meer geluiden toegevoegd met bijbehorende elementen.
+-	De “fuck off” tekst heb ik anders gestyled. Ik heb de positionering verplaatst naar in de video zelf zodat Marie beter kan zien van wie de opmerking komt (dit is namelijk vrij slecht te zien). 
+
+<h3>Nieuwe toevoegingen</h3>
+In de eerste sessie met de robot is een hoge toon te horen die steeds intenser wordt. Ik heb nu vanaf het begin van dat stuk tot aan het einde, de achtergrond steeds meer laten oplichten, waarbij op ongeveer 80% van de scene de kleur van wit naar rood veranderd om te benadrukken dat de toon “ondragelijk” intens wordt.
+
+Ik heb een blauw/paarse gloed toegevoegd op het moment dat de mysterieuze muziek begint te spelen. Deze kleuren heb ik gekozen omdat deze algemeen worden geassocieerd met neutraal en mysterieus. De achtergrond gloed afwisselend langzaam op om aan te duiden dat de muziek bezig is, en op 1;52 hoorde ik dat de muziek harder werd. Daarom heb ik de gloed ook sterker gemaakt vanaf dat moment en de omschrijving [Mysterious music intensifies] toegevoegd. Op het einde van de video stopt de muziek en laat ik dan ook de mysterieuze gloed wegvallen. 
+
+Ik heb een kleine animatie toegevoegd op het punt dat er een melding binnenkomt op de computer van de vrouw die op dat moment in beeld is. Er is een kleine knipper-gloed in beeld om een trilling visueel na te bootsen die meestal met een melding komt.
