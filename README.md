@@ -106,16 +106,16 @@ Vasilis heeft samen met Menno besloten dat ik mijn closed captions moet aanvulle
 
 -	Er kwamen naar hun mening door te veel onduidelijkheden, vragen op in de video die eigenlijk niet zouden moeten opkomen. Pas na mijn uitleg was het duidelijk, en dat zou niet moeten.
 -	Er wordt te weinig van de muziek beschreven, de achtergrond (body) gaat te veel over het beeld i.p.v. de audio en dat is niet de opdracht.
--	De positionering van de teksten werkt niet helemaal goed, vooral omdat sommige zinnen erg lang waren wat de layout verknalt. 
+-	De positionering van de teksten werkt niet helemaal goed, vooral omdat sommige zinnen erg lang waren wat de consitentie verknalt. 
 -	Ik had volgens Menno en Vasilis geen Readme. Dit puntje snapte ik niet helemaal aangezien ik een uitgebreide documentatie had gemaakt en in de readme.md op mijn GitHub had gezet. Het kan ook geen foutje vanuit mijn kant zijn geweest aangezien klasgenoten wel de readme konden zien in mijn GitHub.
 
 Ik begrijp de feedback die ik heb gekregen en ben dan ook van mening dat alles terecht is (los van dat readme puntje). Daarom heb ik het volgende aangepast in mijn closed captions.
 
 <h3>aanpassingen</h3>
--	Ik ben afgestapt van het idee dat de achtergrond de video versterkt door steeds tussen ruimtes en achtergrondkleuren te switchen. De achtergrond moet juist de audio versterken en dit heb ik nu gedaan.
--	De achtergrond veranderd nu ook op basis van de muziek en langere geluiden die in de video zitten, en niet alleen maar op de korte geluiden.
--	Zinnen die te lang waren heb ik korter gemaakt om zo het effect van de positionering van de tekst overal even goed over te brengen. 
--	Ik heb meer geluiden toegevoegd met bijbehorende elementen.
+-	Ik ben afgestapt van het idee dat de achtergrond de video versterkt door steeds tussen ruimtes en achtergrondkleuren te switchen. De achtergrond moet juist de audio versterken en dit heb ik nu gedaan.<br>
+-	De achtergrond veranderd nu ook op basis van de muziek en langere geluiden die in de video zitten, en niet alleen maar op de korte geluiden.<br>
+-	Zinnen die te lang waren heb ik korter gemaakt om zo het effect van de positionering van de tekst overal even goed over te brengen. <br>
+-	Ik heb meer geluiden toegevoegd met bijbehorende elementen.<br>
 -	De “fuck off” tekst heb ik anders gestyled. Ik heb de positionering verplaatst naar in de video zelf zodat Marie beter kan zien van wie de opmerking komt (dit is namelijk vrij slecht te zien). 
 
 <h3>Nieuwe toevoegingen</h3>
