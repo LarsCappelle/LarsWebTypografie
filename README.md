@@ -124,3 +124,5 @@ In de eerste sessie met de robot is een hoge toon te horen die steeds intenser w
 Ik heb een blauw/paarse gloed toegevoegd op het moment dat de mysterieuze muziek begint te spelen. Deze kleuren heb ik gekozen omdat deze algemeen worden geassocieerd met neutraal en mysterieus. De achtergrond gloed afwisselend langzaam op om aan te duiden dat de muziek bezig is, en op 1;52 hoorde ik dat de muziek harder werd. Daarom heb ik de gloed ook sterker gemaakt vanaf dat moment en de omschrijving [Mysterious music intensifies] toegevoegd. Op het einde van de video stopt de muziek en laat ik dan ook de mysterieuze gloed wegvallen. 
 
 Ik heb een kleine animatie toegevoegd op het punt dat er een melding binnenkomt op de computer van de vrouw die op dat moment in beeld is. Er is een kleine knipper-gloed in beeld om een trilling visueel na te bootsen die meestal met een melding komt. 
+
+Ik heb bij de eerste caption van een nieuwe stem, toegevoegd wie deze stem is. Dus bij de eerste zin die officier K zegt staat (officer K) etc. Hierdoor is het nog duidelijker wie wat zegt en kost het maar 1 extra woord per stem.
